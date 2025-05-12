@@ -66,10 +66,44 @@ Setelah semua dependensi terpasang, jalankan aplikasi Streamlit dengan perintah:
 streamlit run app.py
 ```
 
-Setelah perintah dijalankan, Streamlit akan menampilkan URL (biasanya `http://localhost:8501`) yang dapat diakses melalui browser untuk melihat dashboard.
+Berikut adalah informasi dari chart yang tersedia di **Student Insight Dashboard**, disusun dalam format poin seperti permintaanmu:
 
-## Business Dashboard
-Jelaskan tentang business dashboard yang telah dibuat. Jika ada, sertakan juga link untuk mengakses dashboard tersebut.
+---
+
+**Dashboard bisnis yang telah dibuat di Metabase menyajikan visualisasi data yang mencakup:**
+
+- **Jumlah Total Siswa:** 4,424  
+- **Total Course:** 17
+- **Rata-rata Usia Siswa:** 23.27 tahun  
+- **Tingkat Dropout:** 32.12%  
+- **Tingkat Keberhasilan Ujian Rata-rata:** 55.09%  
+
+### Visualisasi Chart:
+
+1. **Perbandingan Status Siswa Berdasarkan Course**  
+   Menampilkan jumlah siswa yang **Graduate (lulus)**, **Dropout (berhenti/tidak lulus)**, dan **Enrolled (masih aktif kuliah)** untuk setiap jurusan/course.  
+
+2. **Status Percentage of Students by Status**  
+   Pie chart yang menunjukkan persentase total siswa berdasarkan status:
+   - **Enrolled**: 18% → Masih aktif
+   - **Dropout**: 32% → Berhenti/tidak lulus
+   - **Graduate**: 50% → Sudah lulus
+
+3. **Scholarship vs Non-scholarship Students**  
+   Membandingkan jumlah siswa yang mendapat beasiswa (**Yes**) dan yang tidak (**No**) pada tiap status:
+
+4. **Persentase Gender Berdasarkan Status**  
+   Menunjukkan perbandingan jumlah **laki-laki** dan **perempuan** untuk masing-masing status:
+   - Mayoritas siswa adalah **perempuan** di semua kategori (lulus, aktif, maupun drop out)
+
+5. **Perbandingan Total Student Berdasarkan Umur**  
+   Diagram batang yang memperlihatkan distribusi jumlah siswa berdasarkan usia (17–30 tahun):
+   - Usia paling dominan: **19–22 tahun**
+   - Jumlah siswa semakin sedikit seiring bertambahnya usia di atas **25 tahun**
+
+🔗 **Link untuk mengakses dashboard:**  
+[Klik di sini untuk mengakses dashboard di Metabase](https://jmjttiml.ap-southeast-1.clawcloudrun.com/public/dashboard/62ad6b47-d2a8-40d5-a313-1ab9f586ec53?status=)  
+
 
 ## Menjalankan Sistem Machine Learning
 Jelaskan cara menjalankan protoype sistem machine learning yang telah dibuat. Selain itu, sertakan juga link untuk mengakses prototype tersebut.
