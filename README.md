@@ -66,9 +66,7 @@ Setelah semua dependensi terpasang, jalankan aplikasi Streamlit dengan perintah:
 streamlit run app.py
 ```
 
-Berikut adalah informasi dari chart yang tersedia di **Student Insight Dashboard**, disusun dalam format poin seperti permintaanmu:
-
----
+## Business Dashboard
 
 **Dashboard bisnis yang telah dibuat di Metabase menyajikan visualisasi data yang mencakup:**
 
@@ -139,7 +137,7 @@ Berdasarkan hasil analisis data yang telah dilakukan, sejumlah faktor utama yang
 
 Dengan implementasi sistem prediksi ini, Jaya Jaya Institut dapat merancang intervensi yang lebih tepat sasaran dan berbasis data untuk menekan angka dropout, meningkatkan tingkat kelulusan, serta memperkuat reputasi institusi secara menyeluruh.
 
-### Rekomendasi Action Items
+## Rekomendasi Action Items
 
 Agar upaya menurunkan angka dropout dan meningkatkan kualitas pendidikan di Jaya Jaya Institut berjalan lebih efektif, berikut lima rekomendasi utama yang dapat diterapkan:
 
