@@ -68,7 +68,7 @@ streamlit run app.py
 
 ## Business Dashboard
 
-**Dashboard bisnis yang telah dibuat di Metabase menyajikan visualisasi data yang mencakup:**
+**Dashboard bisnis yang telah dibuat di Metabase menyajikan KPI Metrik yang mencakup:**
 
 - **Jumlah Total Siswa:** 4,424  
 - **Total Course:** 17
