@@ -32,12 +32,41 @@ Dengan semakin ketatnya persaingan di dunia pendidikan tinggi dan kebutuhan maha
 
 ### Persiapan
 
-Sumber data: ....
+**Sumber Data**  
+Dataset yang digunakan dalam proyek ini tersedia di [tautan berikut](https://github.com/dicodingacademy/dicoding_dataset/blob/main/students_performance/data.csv).
 
-Setup environment:
+#### Setup Environment  
+Berikut langkah-langkah untuk menyiapkan environment serta menjalankan dashboard Streamlit:
+
+##### 1. Membuat Virtual Environment dengan Conda
+Mulailah dengan membuat environment baru menggunakan Conda:
+
+```bash
+conda create --name streamlit-venv python=3.10
 ```
 
+Aktifkan environment yang telah dibuat:
+
+```bash
+conda activate streamlit-venv
 ```
+
+##### 2. Instalasi Dependencies dari `requirements.txt`
+Pastikan Anda memiliki file `requirements.txt` yang berisi seluruh library yang diperlukan.  
+Untuk menginstal semua dependensi, jalankan perintah berikut:
+
+```bash
+pip install -r requirements.txt
+```
+
+##### 3. Menjalankan Streamlit Dashboard
+Setelah semua dependensi terpasang, jalankan aplikasi Streamlit dengan perintah:
+
+```bash
+streamlit run app.py
+```
+
+Setelah perintah dijalankan, Streamlit akan menampilkan URL (biasanya `http://localhost:8501`) yang dapat diakses melalui browser untuk melihat dashboard.
 
 ## Business Dashboard
 Jelaskan tentang business dashboard yang telah dibuat. Jika ada, sertakan juga link untuk mengakses dashboard tersebut.
