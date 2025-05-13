@@ -42,16 +42,16 @@ Berikut langkah-langkah untuk menyiapkan environment serta menjalankan dashboard
 Mulailah dengan membuat environment baru menggunakan Conda:
 
 ```bash
-conda create --name streamlit-venv python=3.10
+conda create --name student-prediction python=3.11
 ```
 
 Aktifkan environment yang telah dibuat:
 
 ```bash
-conda activate streamlit-venv
+conda activate student-prediction
 ```
-##### 1b. Alternatif: Membuat Virtual Environment dengan Pipenv
-Jika Anda tidak menggunakan Conda, Anda dapat menggunakan [Pipenv](https://pipenv.pypa.io/en/latest/) untuk mengelola environment:
+##### Alternatif: Membuat Virtual Environment dengan Pipenv
+Jika Anda tidak menggunakan Conda, Anda dapat menggunakan Pipenv untuk mengelola environment:
 
 Pastikan pipenv sudah terinstal:
 ```bash
