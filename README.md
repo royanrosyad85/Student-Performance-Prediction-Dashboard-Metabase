@@ -50,6 +50,23 @@ Aktifkan environment yang telah dibuat:
 ```bash
 conda activate streamlit-venv
 ```
+##### 1b. Alternatif: Membuat Virtual Environment dengan Pipenv
+Jika Anda tidak menggunakan Conda, Anda dapat menggunakan [Pipenv](https://pipenv.pypa.io/en/latest/) untuk mengelola environment:
+
+Pastikan pipenv sudah terinstal:
+```bash
+pip install pipenv
+```
+
+Buat environment baru:
+```bash
+pipenv install
+```
+
+Aktifkan shell environment pipenv:
+```bash
+pipenv shell
+```
 
 ##### 2. Instalasi Dependencies dari `requirements.txt`
 Pastikan Anda memiliki file `requirements.txt` yang berisi seluruh library yang diperlukan.  
